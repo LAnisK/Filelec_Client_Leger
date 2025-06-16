@@ -1,0 +1,126 @@
+/* assets/css/panier.css */
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.panier {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.panier-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.panier-item:last-child {
+    border-bottom: none;
+}
+
+.panier-item-info h2 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.panier-item-info p,
+.panier-item-total p {
+    margin: 5px 0;
+}
+
+input[type="text"] {
+    width: 40px;
+    padding: 5px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.panier-total {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.panier-total h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.panier-total a {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.panier-total a:hover {
+    background-color: #218838;
+}
+
+a[href*="catalogue"] {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+a[href*="catalogue"]:hover {
+    text-decoration: underline;
+}
+
+.retour-catalogue {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.retour-catalogue:hover {
+    text-decoration: underline;
+}
